@@ -1,0 +1,221 @@
+Habitaciones,Baños,Estrato,Área_construida,Código inmueble,Barrio común,Precio,Antigüedad,Área construida,Área privada,Valor administración,Parqueaderos,estado
+5,3,4,386,16742-M4795726,Frente al Hotel hunza,1200000000,Más de 20 años,386,386,,,venta_casa
+5,4,5,210,16742-M4795707,CONDOMINIO EL LAGO,800000000,Entre 10 y 20 años,210,210,253000.0,1.0,venta_casa
+3,3,4,146,16742-M4795647,Tejarez del Norte,350000000,Entre 10 y 20 años,146,146,230000.0,1.0,venta_casa
+5,5,4,480,13873-M3706524,Condominio Campestre Santa Elena,2000000000,Entre 10 y 20 años,480,480,352000.0,4.0,venta_casa
+5,5,5,420,16742-M4796230,LA MARIA,1100000000,Más de 20 años,420,420,,1.0,venta_casa
+4,4,5,410,16742-M4795788,Condominio las acacias,1200000000,Entre 10 y 20 años,410,410,,2.0,venta_casa
+3,2,5,92,16742-M4844700,MARIA FERNANDA,375000000,Entre 5 y 10 años,9202,92,185000000.0,1.0,venta_apartamento
+5,3,3,461,10159-M4888691,Boyaca  Tunja,1500000000,Más de 20 años,461,461,,,venta_casa
+3,2,3,98,10159-M4937798,La Granja,290000000,Entre 5 y 10 años,98,95,,2.0,venta_casa
+2,2,5,78,16742-M4796791,GRAN RESERVA,300000000,Entre 10 y 20 años,78,78,185000.0,1.0,venta_apartamento
+4,5,4,286,16742-M4795739,HUGOLINO,1200000000,Más de 20 años,286,286,,2.0,venta_casa
+3,3,5,400,16742-M4795757,CONDOMINIO LAS ACACIAS,900000000,Entre 10 y 20 años,400,400,,1.0,venta_casa
+3,2,3,145,16742-M4843682,SAN FRANCISCO,250000000,Entre 10 y 20 años,145,145,,1.0,venta_casa
+4,3,5,160,16742-M4884650,LAS QUINTAS,440000000,Entre 10 y 20 años,160,160,,1.0,venta_casa
+2,2,5,68,12373-M4870988,Unicentro,227000000,Entre 10 y 20 años,68,68,225000.0,1.0,venta_apartamento
+3,2,3,62,10159-M4840145,Tunja,147000000,Entre 5 y 10 años,62,59,100000.0,,venta_apartamento
+4,4,5,220,10159-M4930590,Unicentro,630000000,Entre 5 y 10 años,220,220,,1.0,venta_casa
+3,3,2,151,3858-M4566733,ALTEZZA,480000000,Entre 5 y 10 años,151,151,290000.0,2.0,venta_apartamento
+3,4,5,240,12373-M4978646,Las Quintas,690000000,Entre 0 y 5 años,240,240,,1.0,venta_casa
+3,2,5,103,12373-M4898937,Edf  Milan,340000000,Entre 10 y 20 años,10383,10383,370000.0,1.0,venta_apartamento
+2,2,5,53,12373-M4882764,Reserva Del Bosque Viva,240000000,Entre 0 y 5 años,53,53,190000.0,1.0,venta_apartamento
+3,2,5,68,10159-M4617370,Unicentro,265000000,Entre 0 y 5 años,68,64,229000.0,1.0,venta_apartamento
+3,3,5,144,10159-M4745038,Arboleda,575000000,Entre 5 y 10 años,144,140,420000.0,2.0,venta_casa
+4,4,4,290,10159-M4930649,Tunja,570000000,Entre 10 y 20 años,290,290,,1.0,venta_casa
+3,2,4,72,38-M4033833,Santa Catalina,315000000,Entre 0 y 5 años,72,72,159000.0,1.0,venta_apartamento
+3,2,3,62,10278-M4693451,La Florida,262900000,Entre 0 y 5 años,6232,5556,,1.0,venta_apartamento
+4,3,3,150,16742-M4795660,Portales del norte,335000000,Más de 20 años,150,150,,1.0,venta_casa
+3,2,4,57,15054-M4626583,MIRADOR DE SAN CARLOS,230000000,Entre 0 y 5 años,57,57,160000.0,1.0,venta_apartamento
+3,2,4,77,10159-M4925139,La Maria,215000000,Más de 20 años,77,67,200000.0,1.0,venta_apartamento
+4,5,4,460,10159-M4924994,Tunja,1700000000,Entre 10 y 20 años,460,460,,4.0,venta_casa
+3,2,3,57,482-M4420550,MANZANARES,160000000,Entre 0 y 5 años,57,57,,1.0,venta_apartamento
+5,5,3,315,10159-M4706797,Las Nieves,650000000,Más de 20 años,315,300,,,venta_casa
+4,3,3,118,10278-M4927244,Colinas Del Norte,320000000,Entre 10 y 20 años,118,118,,1.0,venta_casa
+2,2,3,65,10159-M4979981,Santa Barbara,235000000,Entre 5 y 10 años,65,62,,1.0,venta_apartamento
+3,1,2,78,10159-M4788752,Tunja,230000000,Más de 20 años,78,74,,2.0,venta_casa
+3,2,5,98,16742-M4796302,Villas de aranjuez,350000000,Entre 10 y 20 años,98,98,320000.0,2.0,venta_apartamento
+3,2,4,116,2266-M4453325,Tunja Seminario Mayor,650000000,Entre 0 y 5 años,116,116,270000.0,2.0,venta_apartamento
+3,2,4,92,10159-M4662078,Unicentro,350000000,Entre 10 y 20 años,92,90,140000.0,1.0,venta_apartamento
+2,3,5,60,223-M3700744,MESOPOTAMIA,210000000,Entre 5 y 10 años,60,60,130000.0,1.0,venta_apartamento
+2,1,4,75,652-M3455828,LAS NIEVES,230000000,Entre 5 y 10 años,75,75,,1.0,venta_apartamento
+3,2,4,107,10278-M4683822,Fontanella,575000000,Entre 0 y 5 años,10751,9091,,2.0,venta_apartamento
+2,2,4,66,12373-M4916763,Los Cristales,200000000,Entre 10 y 20 años,66,66,48000.0,1.0,venta_apartamento
+3,3,5,150,16742-M4795678,Santa ines remansos II,590000000,Entre 10 y 20 años,150,150,460000.0,1.0,venta_casa
+5,4,3,255,3072-M4526359,NUEVA SANA BARBARA,360000000,Entre 10 y 20 años,255,255,50000.0,1.0,venta_casa
+3,2,3,56,10159-M4917532,La Florida,149000000,Entre 0 y 5 años,56,56,140000.0,,venta_apartamento
+5,5,6,200,10159-M4968566,Santa Barbara,850000000,Más de 20 años,200,188,,,venta_casa
+4,3,5,137,10151-M4748986,Altezza,483000000,Entre 0 y 5 años,13754,13754,256000.0,2.0,venta_apartamento
+4,3,5,137,10151-M4749021,Altezza,477000000,Entre 0 y 5 años,13767,13767,256000.0,2.0,venta_apartamento
+5,3,3,258,11295-M4431508,VILLA DEL ROSARIO TUNJA,380000000,Entre 10 y 20 años,258,258,,1.0,venta_casa
+4,3,5,280,12373-M4871001,Sta Helena,1100000000,Entre 5 y 10 años,280,280,550000.0,4.0,venta_casa
+4,3,4,176,12373-M4870998,Conjunto Residencial Alameda,460000000,Entre 5 y 10 años,176,176,270000.0,2.0,venta_casa
+2,2,2,90,12373-M4871006,Villa Ruby,260000000,Entre 0 y 5 años,90,90,80000.0,1.0,venta_casa
+2,3,3,80,11295-M4006618,Los Muiskas,250000000,Entre 5 y 10 años,80,80,,1.0,venta_casa
+3,2,4,80,3072-M2731740,inaltteza,230000000,Entre 0 y 5 años,80,80,130000.0,1.0,venta_apartamento
+5,5,3,270,10159-M4892590,Trigales,420000000,Entre 10 y 20 años,270,270,,2.0,venta_casa
+2,2,4,69,10278-M4923700,Reina Sofia,380000000,Entre 0 y 5 años,69,69,250000.0,2.0,venta_apartamento
+3,2,5,88,12373-M4868721,Vivente,325000000,Entre 0 y 5 años,88,88,275000.0,1.0,venta_apartamento
+4,4,5,368,12373-M4868737,Norte,1500000000,Más de 20 años,368,368,,4.0,
+3,4,5,200,16742-M4796276,ENTRE PARQUES,870000000,Entre 5 y 10 años,20067,200,,2.0,venta_apartamento
+3,3,5,87,12937-M4816083,tunja,450000000,Entre 0 y 5 años,87,85,350000.0,1.0,venta_apartamento
+3,2,4,118,10159-M4869739,La Maria,360000000,Más de 20 años,118,114,258000.0,1.0,venta_casa
+4,3,3,118,14014-M4861882,Colinas del norte,320000000,Entre 10 y 20 años,11884,115,,1.0,venta_casa
+5,2,3,150,10159-M3807727,Las Nieves,270000000,Más de 20 años,150,145,,,venta_casa
+5,4,5,390,10159-M4959959,Tunja,1200000000,Entre 5 y 10 años,390,390,,2.0,venta_casa
+3,2,5,120,16742-M4912725,LUZ ALEJANDRA,450000000,Entre 10 y 20 años,120,120,900000.0,2.0,venta_apartamento
+3,4,5,190,10159-M4958556,Santa Helena,699000000,Más de 20 años,190,190,350000.0,2.0,venta_casa
+4,3,5,87,12373-M4871008,Argami,295000000,Entre 0 y 5 años,87,87,294000.0,1.0,venta_apartamento
+3,2,4,76,10159-M4958700,Tunja,275000000,Entre 0 y 5 años,76,70,204500.0,2.0,venta_apartamento
+3,2,4,78,10159-M4908056,Maldonado,260000000,Entre 10 y 20 años,785,785,235000.0,1.0,venta_apartamento
+3,4,5,180,10159-M4958307,Unicentro,740000000,Entre 10 y 20 años,180,170,400000.0,2.0,venta_apartamento
+3,3,5,80,10159-M4958758,Mesopotamia,320000000,Entre 10 y 20 años,80,73,200000.0,1.0,venta_apartamento
+4,3,4,118,10159-M4907857,Colinas Del Norte,330000000,Entre 5 y 10 años,11884,115,,1.0,venta_casa
+5,3,3,270,10159-M4957928,San Laureano,500000000,Más de 20 años,270,268,,1.0,venta_casa
+5,5,4,225,10159-M4958104,Colinas Del Norte,360000000,Entre 10 y 20 años,225,220,,1.0,venta_casa
+3,1,3,52,10159-M4907882,Tunja,130000000,Entre 0 y 5 años,5265,50,100000.0,,venta_apartamento
+5,4,5,180,10159-M4958249,Unicentro,430000000,Entre 5 y 10 años,180,180,,,venta_apartamento
+3,1,3,62,10159-M4957914,Tunja,170000000,Más de 20 años,62,63,94000.0,2.0,venta_apartamento
+3,1,3,48,10159-M4958749,Tunja,140000000,Entre 5 y 10 años,4838,4838,20000.0,,venta_apartamento
+3,3,4,84,10159-M4958113,Tunja,325000000,Entre 10 y 20 años,84,83,150000.0,1.0,venta_apartamento
+4,4,4,222,10159-M4958237,Zona Centro,360000000,Más de 20 años,222,220,,1.0,venta_casa
+5,3,3,180,10159-M4958750,Los Muiscas,355000000,Más de 20 años,180,180,,1.0,venta_casa
+3,3,3,164,10159-M4957953,Barrio Suarez,310000000,Entre 10 y 20 años,164,160,,1.0,venta_casa
+4,5,6,440,10159-M4957967,Tunja,1100000000,Entre 0 y 5 años,440,420,50000.0,2.0,venta_casa
+2,2,5,52,10159-M4378327,Unicentro,290000000,Entre 0 y 5 años,52,50,182500.0,1.0,venta_apartamento
+3,2,5,93,10159-M4538291,Unicentro,410000000,Entre 5 y 10 años,9338,90,250000.0,1.0,
+2,2,5,75,10159-M4340709,Mesopotamia,270000000,Entre 10 y 20 años,75,72,206000.0,1.0,venta_apartamento
+3,3,6,384,603-M4418400,Tunja,750000000,Más de 20 años,384,384,,2.0,venta_casa
+5,5,3,550,10159-M4106793,San Laureano,1249000000,Más de 20 años,550,540,,3.0,venta_casa
+2,2,5,64,10159-M4039417,Tunja,270000000,Entre 10 y 20 años,64,61,200000.0,,venta_apartamento
+3,2,3,54,10159-M3985011,Trigales,250000000,Entre 0 y 5 años,54,51,103000.0,1.0,venta_apartamento
+5,4,4,340,10159-M4500979,Tunja,850000000,Entre 10 y 20 años,340,320,,1.0,venta_casa
+5,5,5,650,10159-M4021072,Tunja,2999000000,Más de 20 años,650,2980,,4.0,venta_casa
+3,3,2,384,10159-M4412961,Tunja,750000000,Entre 5 y 10 años,384,1240,,2.0,venta_casa
+2,1,4,30,10159-M4503712,Tunja,215000000,Entre 5 y 10 años,3073,4695,120000.0,1.0,venta_apartamento
+3,3,3,140,10159-M4500954,Tunja,300000000,Más de 20 años,140,135,,1.0,venta_casa
+2,2,4,52,10159-M3902572,Tunja,250000000,Entre 0 y 5 años,52,68,,,venta_apartamento
+5,4,4,263,10159-M3883697,Tunja,579000000,Entre 10 y 20 años,263,258,,2.0,venta_casa
+5,5,3,324,10159-M3971993,Las Nieves,694000000,Más de 20 años,324,310,,1.0,venta_casa
+5,3,3,192,10159-M4892549,El Libertador,220000000,Más de 20 años,1925,1925,,2.0,venta_casa
+3,3,3,126,10159-M4537886,Tunja,200000000,Entre 0 y 5 años,126,126,,2.0,venta_casa
+3,3,5,195,12373-M4969123,Sanata Teresa,600000000,Entre 0 y 5 años,195,195,,1.0,venta_casa
+4,3,4,280,3072-M3396101,las quintas,490000000,Entre 0 y 5 años,280,280,,1.0,venta_casa
+5,4,4,290,10159-M4953361,Unicentro,670000000,Entre 0 y 5 años,290,270,250000.0,1.0,venta_casa
+3,2,5,90,16742-M4811418,Terrazas  1  Club House,420000000,Entre 0 y 5 años,90,90,330000.0,1.0,venta_apartamento
+5,5,4,720,11295-M3359954,MIRADOR EL LAGO,800000000,Entre 10 y 20 años,720,720,220000.0,1.0,venta_casa
+4,3,5,138,836-M4786549,In Altezza,477000000,Entre 0 y 5 años,138,138,255000.0,2.0,venta_apartamento
+3,2,5,110,16742-M4861324,MIRADOR DE LA COLINA,460000000,Entre 5 y 10 años,11075,11075,276000000.0,1.0,venta_apartamento
+5,3,3,200,3072-M3786003,VILLA LUZ,320000000,Más de 20 años,200,200,20000.0,1.0,venta_casa
+5,3,3,170,10159-M4958335,Tunja,300000000,Más de 20 años,170,170,,1.0,venta_casa
+2,2,4,52,10159-M4830919,La Maria,219000000,Entre 5 y 10 años,5249,50,125500.0,1.0,venta_apartamento
+3,2,3,92,11295-M4204386,EL PARAISO TUNJA,160000000,Entre 10 y 20 años,92,92,,1.0,venta_casa
+3,2,3,71,3072-M4082468,las nieves,265000000,Entre 5 y 10 años,71,71,100000.0,1.0,venta_apartamento
+4,3,3,94,10159-M4957787,Fuente Higueras,220000000,Entre 10 y 20 años,9498,9498,136000.0,1.0,venta_apartamento
+2,2,4,53,12373-M4895493,Reserva Del Bosque Viva,235000000,Entre 0 y 5 años,53,53,190000.0,1.0,venta_apartamento
+2,2,4,354,11295-M3359998,SAN FRANCISCO,530427129,Entre 10 y 20 años,354,354,,1.0,venta_casa
+5,3,3,200,10159-M4261945,Las Nieves,480000000,Más de 20 años,200,250,,,venta_casa
+4,4,5,232,12373-M4953579,Santa Ines,580000000,Entre 5 y 10 años,232,232,,1.0,venta_casa
+2,2,5,54,10159-M4857077,Unicentro,227000000,Entre 0 y 5 años,54,51,215000.0,1.0,venta_apartamento
+3,2,3,150,10159-M4958164,Santa Lucia,320000000,Más de 20 años,150,150,,,venta_casa
+5,3,1,165,10159-M4848759,El Dorado,320000000,Entre 0 y 5 años,165,160,,,venta_casa
+5,5,6,307,10159-M4838438,Zona Centro,3632000000,Más de 20 años,307,300,,,venta_casa
+3,2,5,150,16742-M4962019,SANTA INES,500000000,Entre 10 y 20 años,150,150,,1.0,venta_casa
+2,2,5,70,12373-M4873547,Mesopotamia,234000000,Entre 10 y 20 años,7026,7026,220000.0,1.0,venta_apartamento
+1,1,3,21,11295-M4783206,UPTC TUNJA,110000000,Entre 5 y 10 años,21,21,110000000.0,,venta_apartamento
+5,5,3,344,10159-M4455463,Tunja,300000000,Más de 20 años,344,344,,1.0,venta_casa
+3,2,3,54,10159-M4897177,El Rodeo,210000000,Entre 0 y 5 años,54,51,150000.0,1.0,venta_apartamento
+3,3,5,116,10159-M4578888,Mesopotamia,420000000,Entre 10 y 20 años,11642,11005,360000.0,1.0,venta_apartamento
+3,2,4,63,10159-M3814487,Balcones De Don Espiritu,210000000,Entre 0 y 5 años,63,60,,1.0,venta_apartamento
+3,2,3,62,10159-M4897203,La Florida,265000000,Entre 0 y 5 años,6232,60,160000.0,1.0,venta_apartamento
+3,2,4,76,10159-M4898703,El Dorado,235000000,Entre 5 y 10 años,7653,73,208200.0,1.0,venta_apartamento
+3,3,3,107,10159-M4947520,Tunja,270000000,Entre 0 y 5 años,107,104,,1.0,venta_casa
+5,3,2,212,10159-M4945979,El Libertador,480000000,Más de 20 años,2128,3192,,,venta_casa
+5,5,4,400,393-M4799667,Tunja,470000000,Entre 10 y 20 años,400,400,,2.0,
+2,2,3,73,10159-M4958459,Zona Centro,174000000,Más de 20 años,73,73,54000.0,1.0,venta_apartamento
+3,3,3,137,11295-M3471921,MANZANARES,327700000,Entre 10 y 20 años,137,137,356200.0,1.0,venta_apartamento
+5,5,5,543,847-M4686008,Santa Helena,1900000000,Entre 10 y 20 años,543,543,500000.0,4.0,venta_apartamento
+2,1,4,60,2147-M4454060,tunja,160000000,Entre 5 y 10 años,60,60,,,venta_apartamento
+5,3,3,101,10159-M4912947,Los Muiscas,250000000,Más de 20 años,101,101,,,venta_casa
+5,5,3,435,11295-M3487997,CONDOMINIO EL LAGO,750000000,Entre 5 y 10 años,435,435,220000.0,,venta_casa
+4,3,5,135,10159-M4892536,Santa Ines,450000000,Más de 20 años,135,135,,1.0,
+4,3,3,140,10159-M4892593,Balcones Del Norte,335000000,Entre 10 y 20 años,140,138,,1.0,
+5,2,2,310,10159-M4892542,Zona Centro,500000000,Más de 20 años,310,310,,2.0,
+4,2,3,190,11295-M4195326,COOSERVICIOS,250000000,Entre 10 y 20 años,190,190,,1.0,venta_casa
+3,2,5,103,16742-M4849226,CAPITOLIO,260000000,Entre 5 y 10 años,103,103,230000.0,1.0,
+3,2,4,61,16742-M4797363,MIRADOR DEL CENTRO,225000000,Entre 10 y 20 años,61,61,234000.0,1.0,
+3,2,5,76,12373-M4870999,Innalteza,215000000,Entre 5 y 10 años,7636,7636,,1.0,venta_apartamento
+5,5,3,280,11295-M3572887,PUENTE HAMACA,850000000,Entre 5 y 10 años,280,5380,,4.0,venta_casa
+3,2,4,79,11295-M4204206,MALDONADO TUNJA,240000000,Entre 5 y 10 años,79,79,220000.0,1.0,venta_apartamento
+3,2,4,122,11295-M4019770,CENTRO,300000000,Entre 5 y 10 años,122,122,250000.0,1.0,venta_apartamento
+3,1,3,62,10159-M4957842,La Florida,130000000,Más de 20 años,62,60,,,venta_apartamento
+4,3,3,250,3312-M4645187,URBANIZACION EL BOSQUE,420000000,Entre 5 y 10 años,250,286,420000000.0,2.0,venta_casa
+3,2,3,150,11295-M4299919,CENTRO DE TUNJA,320000000,Entre 10 y 20 años,150,150,,1.0,venta_apartamento
+1,1,5,40,13678-M4767093,SANTA INES,195000000,Entre 5 y 10 años,40,37,150000.0,1.0,venta_apartamento
+4,3,4,168,11295-M3827533,Unicentro,480000000,Entre 10 y 20 años,1683,1683,,1.0,venta_casa
+5,3,5,101,11295-M3357205,,600000000,Remodelado,101,101,,,venta_casa
+5,4,5,187,MC4698620,Unicentro Tunja,495000000,Entre 10 y 20 años,187,187,,1.0,venta_casa
+3,2,3,102,11295-M4545278,JUAN CASTELLANOS TUNJA,320000000,Entre 10 y 20 años,102,102,,1.0,venta_apartamento
+5,3,5,101,11295-M3562129,Las Quintas,600000000,Entre 5 y 10 años,101,101,,,venta_casa
+3,2,4,65,10159-M4261882,Tunja,240000000,Entre 5 y 10 años,6575,611,236000.0,1.0,venta_apartamento
+3,3,4,60,10159-M4430069,Balcones De Don Espiritu,300000000,Entre 0 y 5 años,6093,6093,,1.0,venta_casa
+3,2,3,82,11295-M4770235,MALDONADO TUNJA,220000000,Entre 10 y 20 años,82,82,220000000.0,1.0,venta_apartamento
+2,2,3,49,10159-M4958724,El Libertador,160000000,Más de 20 años,49,48,,,venta_apartamento
+2,2,3,354,11295-M3297796,SAN FRANCISCO,530427129,Entre 10 y 20 años,354,354,,,venta_casa
+3,2,1,52,16742-M4884787,OIKOS MONTEVERDE,220000000,Entre 5 y 10 años,52,52,146000.0,1.0,venta_apartamento
+5,3,3,147,10159-M4057352,Gaitan,330000000,Más de 20 años,147,143,,,venta_casa
+4,4,3,466,3072-M3395906,centro historico,1200000000,Más de 20 años,466,466,,3.0,venta_casa
+3,3,4,240,3072-M4697534,Lombardia,750000000,Entre 0 y 5 años,240,240,230000.0,2.0,venta_casa
+3,2,4,101,MC4869792,SECTOR MALDONADO   GLORIETA NORTE,320000000,Entre 5 y 10 años,101,101,268000.0,1.0,venta_apartamento
+5,5,3,720,11295-M3608718,Mirador del Lago,750000000,Entre 5 y 10 años,720,720,220000.0,1.0,venta_casa
+1,1,3,27,11295-M4770230,PARQUE PINZON TUNJA,120000000,Entre 5 y 10 años,27,27,120000000.0,,venta_apartamento
+2,3,4,75,16742-M4946289,Vivente,320000000,Entre 5 y 10 años,7526,7526,287000.0,1.0,venta_apartamento
+2,1,3,50,MC4806263,Jorge Eliecer Gaitan,185000000,Entre 0 y 5 años,50,50,,1.0,venta_apartamento
+3,2,3,62,10278-M4693487,La Florida,202900000,Entre 0 y 5 años,6232,5556,,1.0,venta_apartamento
+5,4,3,220,10159-M4693097,La Florida,315000000,Entre 5 y 10 años,220,210,,,venta_casa
+4,3,4,202,11295-M4264695,CC BULEVAR TUNJA,475000000,Entre 10 y 20 años,202,202,,2.0,venta_casa
+3,2,3,65,MC2456423,San Laureano,172000000,Entre 0 y 5 años,65,6061,49000.0,,venta_apartamento
+4,3,3,120,11295-M4137361,LOS HONGOS,200000000,Entre 10 y 20 años,120,120,,1.0,venta_casa
+3,3,5,80,16742-M4806536,Edificio quinta santana,320000000,Entre 10 y 20 años,80,80,,1.0,venta_apartamento
+3,3,3,125,MC4513166,Santa Ana,449000000,Entre 0 y 5 años,125,120,,1.0,venta_casa
+3,2,3,74,10159-M4261924,Tunja,180000000,Entre 5 y 10 años,7403,7403,98000.0,1.0,venta_casa
+3,2,4,68,10159-M3894838,Las Nieves,255000000,Entre 5 y 10 años,68,65,53000.0,1.0,venta_apartamento
+4,4,5,240,3072-M4754791,LOMBARDIA,800000000,Entre 0 y 5 años,240,240,200000.0,1.0,venta_casa
+2,2,3,354,11295-M3608990,San Francisco,530427129,Entre 5 y 10 años,35407,35707,,,venta_casa
+3,2,4,80,MC2340266,Unicentro,250000000,Entre 0 y 5 años,80,80,190000.0,1.0,venta_apartamento
+1,1,5,32,MC4901383,Las Quintas,140000000,Entre 0 y 5 años,32,299,50000.0,,venta_apartamento
+4,4,5,137,11295-M3559600,In Altezza,531000000,Entre 5 y 10 años,1375,1375,338000.0,1.0,venta_apartamento
+5,3,2,87,10159-M4261828,Nazareth,500000000,Más de 20 años,87,427,,,venta_casa
+3,3,4,89,10159-M4892573,Fuente Higueras,280000000,Entre 10 y 20 años,895,895,130000.0,1.0,
+5,5,4,370,MC4137935,urapanes,1100000000,Entre 10 y 20 años,370,370,,2.0,venta_casa
+4,3,5,101,MC4355277,mesopotamia,320000000,Entre 10 y 20 años,101,101,377000.0,1.0,venta_apartamento
+2,2,5,52,MC4538304,Alameda de Unicentro,280000000,Entre 0 y 5 años,52,50,185000.0,1.0,venta_apartamento
+3,2,5,75,11295-M4893877,SECTOR MESOPOTAMIA TUNJA,250000000,Entre 10 y 20 años,75,75,150000.0,1.0,venta_apartamento
+5,5,5,137,11295-M3556844,In Altezza,531000000,Entre 5 y 10 años,13754,13754,358000.0,1.0,venta_apartamento
+2,1,3,42,MC4962781,UPTC MEDICINA   CENTRO,178000000,Entre 0 y 5 años,42,42,,,venta_apartamento
+3,1,2,83,MC4941029,Villa del Rosario,95000000,Entre 0 y 5 años,83,73,,1.0,venta_apartamento
+5,4,5,210,MC4977324,El Lago,800000000,Entre 0 y 5 años,210,697,291000.0,2.0,venta_casa
+3,4,5,200,MC4951498,Santa Ines Reservado,870000000,Entre 0 y 5 años,2007,1918,892000.0,2.0,venta_apartamento
+4,3,4,156,MC4900716,Las Quintas,430000000,Entre 10 y 20 años,156,156,,1.0,venta_casa
+5,5,4,435,11295-M3308508,,750000000,Entre 5 y 10 años,435,720,220000.0,1.0,venta_casa
+2,2,4,150,11295-M3972852,Los Muiscas,280000000,Entre 5 y 10 años,150,150,,1.0,venta_casa
+1,1,4,55,11295-M3470246,NORTE,160000000,Entre 5 y 10 años,55,55,,,venta_casa
+3,2,2,72,10159-M4892532,Santa Lucia,280000000,Entre 0 y 5 años,727,68,60000.0,,venta_apartamento
+1,1,3,30,MC4925707,San Laureano ,95000000,Entre 10 y 20 años,30,30,,,venta_apartamento
+3,2,3,62,10278-M4675763,La Florida,201900000,Entre 0 y 5 años,6232,5556,,1.0,venta_apartamento
+5,5,3,763,MC4723427,Plaza de Bolivar Centro Historico,2650000000,Más de 20 años,763,763,,,venta_casa
+2,2,3,68,11295-M4893760,Sector Paraíso Tunja,160000000,Remodelado,68,68,20000.0,,venta_apartamento
+2,1,5,51,16742-M4943605,GRAN RESERVA,240000000,Entre 10 y 20 años,5187,5187,200000.0,1.0,venta_apartamento
+2,2,3,49,11295-M4851186,Sector las americas Tunja,160000000,Entre 10 y 20 años,49,49,160000000.0,,venta_apartamento
+1,2,4,49,11295-M3607311,norte,1600000000,Entre 5 y 10 años,49,49,,,venta_casa
+2,2,5,79,MC4343566,Mirador del Country,309665000,Entre 0 y 5 años,79,79,192000.0,1.0,venta_apartamento
+3,2,5,102,MC4492980,MIRADOR DEL COUNTRY,400000000,Entre 0 y 5 años,102,102,,2.0,venta_apartamento
+2,1,3,56,MC4765267,Universidad de Boyaca ,175000000,Más de 20 años,56,52,139000.0,1.0,venta_apartamento
+5,3,3,240,MC4946662,las nieves,600000000,Entre 10 y 20 años,240,300,,1.0,venta_casa
+5,4,3,240,MC4962547,URBANIZACION MANATIAL DEL NORTE,600000000,Entre 0 y 5 años,240,240,10.0,2.0,venta_casa
+3,1,1,53,MC4947669,Antonia santos,130000000,Entre 5 y 10 años,53,53,25000.0,,venta_apartamento
+3,3,5,138,MC4954891,Arboleda,570000000,Entre 5 y 10 años,1382,154,358000.0,2.0,venta_casa
+4,3,4,130,MC4986469,San Ignacio ,380000000,Entre 10 y 20 años,130,127,320000.0,1.0,venta_apartamento
+3,2,3,56,MC4990176,Arboreto ,165000000,Entre 5 y 10 años,56,535,95000.0,,venta_apartamento
+1,1,3,29,MC4963341,Gaitan,125000000,Entre 10 y 20 años,29,33,30000.0,,venta_apartamento
+3,3,3,99,MC4953938,patriotas,230000000,Remodelado,9968,675,,1.0,venta_casa
