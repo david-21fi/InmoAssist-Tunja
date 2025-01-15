@@ -1,2 +1,7 @@
 # Ignorar archivos de configuración de DB Browser for SQLite
 *.sqbpro
+
+.env
+
+
+Notebook/.ipynb_checkpoints/
