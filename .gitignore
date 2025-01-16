@@ -5,3 +5,7 @@
 
 
 Notebook/.ipynb_checkpoints/
+.ipynb_checkpoints/
+tools/.ipynb_checkpoints/
+Notebook/.gradio
+tools/__pycache__/
