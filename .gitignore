@@ -1,9 +1,10 @@
 # Ignorar archivos de configuración de DB Browser for SQLite
 *.sqbpro
 
+# archivo de claves
 .env
-
-
+# archivo de datos
+data/data_metro_cuadrado*
 Notebook/.ipynb_checkpoints/
 .ipynb_checkpoints/
 tools/.ipynb_checkpoints/
