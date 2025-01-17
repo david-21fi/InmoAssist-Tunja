@@ -1,68 +1,62 @@
 import json
-from typing import Optional, List, Union
+from typing import Optional
 import pandas as pd
 import sqlite3
-from pydantic import BaseModel
+import re
 
-# Definición del modelo Pydantic para validación de parámetros
-class SQLiteQueryParams(BaseModel):
-    tabla: str
-    columnas: Union[str, List[str]] = "*"
-    condiciones: Optional[str] = None
 
-def consulta_filtrada(
-    tabla: str,
-    columnas: Union[str, List[str]] = "*",
-    condiciones: Optional[str] = None
-) -> pd.DataFrame:
+
+def consulta_filtrada(tabla: str,condiciones: str) -> pd.DataFrame:
     """
     Realiza una consulta filtrada en una base de datos SQLite.
     """
     conn = sqlite3.connect('../inmuebles.db')
-    if isinstance(columnas, list):
-        columnas = ", ".join(columnas)
+    #if isinstance(columnas, list):
+     #   columnas = ", ".join(columnas)
+
+    # Construir la consulta base
+    consulta = f"SELECT * FROM {tabla}"
+    print(f"Consulta base temp: {condiciones}")
+    # Agregar filtros
     
-    consulta = f"SELECT {columnas} FROM {tabla}"
     if condiciones:
-        consulta += f" WHERE {condiciones}"
+        consulta += " WHERE "+ condiciones
+    elif 'barrio_comun' in condiciones:
+        patron = r"(barrio_comun)\s*=\s*"
+        consulta = re.sub(patron, r"\1 LIKE ", consulta)
+
+    print(f"Consulta generada: {consulta}")
     
     try:
         df = pd.read_sql_query(consulta, conn)
         return df
     except Exception as e:
         print(f"Error al realizar la consulta: {e}")
-        return pd.DataFrame()
+        
 
 # Definición de la herramienta para OpenAI
 sqlite_tool = [{
     "type": "function",
     "function": {
         "name": "consulta_filtrada",
-        "description": "Realiza consultas filtradas en una base de datos SQLite",
+        "description": """Realiza consultas filtradas en una base de datos SQLite utilinzo operadores logicos entre otros""",
         "parameters": {
             "type": "object",
             "properties": {
                 "tabla": {
                     "type": "string",
-                    "description": "Nombre de la tabla a consultar",
-                    "default":"property"
-                },
-                "columnas": {
-                    "type": ["string", "array"],
-                    "items": {
-                        "type": "string"
-                    },
-                    "description": "Columnas a seleccionar. Puede ser '*' o una lista de nombres de columnas",
-                    "default": "*"
+                    "description": "Nombre de la tabla en la base de datos",
+                    "default":'property'
                 },
                 "condiciones": {
                     "type": "string",
-                    "description": """Condiciones SQL para filtrar las filas (ejemplo: SELECT * FROM property WHERE baños =3 AND
-                    barrio_comun = 'las quintas' AND baños =3 AND estrato= 4 AND area_construida > 200 AND estado = AND (estado = 'venta_apartamento' OR estado = 'venta_casa'))""",
+                    "description": """Condiciones SQL para filtrar los campos (ejemplo: SELECT * FROM property WHERE banos = 3 AND barrio_comun= '%el lago%'
+                     AND baños =3 AND estrato= 4 AND area_construida > 200  AND (estado = 'venta_apartamento' OR estado = 'venta_casa')), los valores de barrio_comun proporcionalos en minuscula""",
                     "default": None
                 }
             },
-            "required": ["tabla"]
+            "required": ["tabla"],
+            "additionalProperties": False
         }
     }
 }]
@@ -70,11 +64,10 @@ sqlite_tool = [{
 def handle_tool_call(message):
     tool_call = message.tool_calls[0]
     arguments = json.loads(tool_call.function.arguments)
-    print(arguments)
+    print(f"los argumentos son \n{arguments}")
     tabla = arguments.get('tabla')
-    columnas = arguments.get('columnas')
-    condiciones = arguments.get('condiciones')
-    dataframe = consulta_filtrada(tabla,columnas,condiciones)
+    condiciones = arguments.get('condiciones') 
+    dataframe = consulta_filtrada(tabla,condiciones)
     if dataframe is not None:
         response = {
             "role": "tool",
