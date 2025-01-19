@@ -9,11 +9,17 @@ import re
 def consulta_filtrada(tabla: str,condiciones: str) -> pd.DataFrame:
     """
     Realiza una consulta filtrada en una base de datos SQLite.
-    """
-    conn = sqlite3.connect('../inmuebles.db')
-    #if isinstance(columnas, list):
-     #   columnas = ", ".join(columnas)
+    
+    Args:
+    tabla(str) : nombre de la tabla a consultar
+    condiciones(str): condiciones en formato sql para realizar la consulta
 
+    Return:
+    df(DataFrame) : devuelve un dataframe con las observaciones encontradas
+    """
+
+    conn = sqlite3.connect('../inmuebles.db')
+    
     # Construir la consulta base
     consulta = f"SELECT * FROM {tabla}"
     print(f"Consulta base temp: {condiciones}")
@@ -32,7 +38,21 @@ def consulta_filtrada(tabla: str,condiciones: str) -> pd.DataFrame:
         return df
     except Exception as e:
         print(f"Error al realizar la consulta: {e}")
-        
+
+
+#__________________________________________________
+def resumen_inmueble(codigo:str):
+    """
+    Realiaza un Scrapeo del inmueble.
+
+    Args:
+    codigo(str): recibe el codigo el inmueble.
+
+    Return
+
+    """
+
+
 
 # Definición de la herramienta para OpenAI
 sqlite_tool = [{
@@ -62,23 +82,27 @@ sqlite_tool = [{
 }]
 
 def handle_tool_call(message):
-    tool_call = message.tool_calls[0]
-    arguments = json.loads(tool_call.function.arguments)
-    print(f"los argumentos son \n{arguments}")
-    tabla = arguments.get('tabla')
-    condiciones = arguments.get('condiciones') 
-    dataframe = consulta_filtrada(tabla,condiciones)
-    if dataframe is not None:
-        response = {
-            "role": "tool",
-            "content": dataframe.to_json(orient='records'),
-            "tool_call_id": message.tool_calls[0].id
-        }
-    else:
-        response = {
-            "role": "tool",
-            "content": json.dumps({"error": "No se encontro considencias."}),
-            "tool_call_id": message.tool_calls[0].id
-        }
-    
-    return response
+    print(message.tool_calls[0],end='\n')
+    print('Nombre de la herramienta: '+ message.tool_calls[0].function.name)
+    if message.tool_calls[0].function.name == 'consulta_filtrada':
+        tool_call = message.tool_calls[0]
+        arguments = json.loads(tool_call.function.arguments)
+        print(f"los argumentos son \n{arguments}")
+        tabla = arguments.get('tabla')
+        condiciones = arguments.get('condiciones') 
+        dataframe = consulta_filtrada(tabla,condiciones)
+        if dataframe is not None:
+            response = {
+                "role": "tool",
+                "content": dataframe.to_json(orient='records'),
+                "tool_call_id": message.tool_calls[0].id
+            }
+        else:
+            response = {
+                "role": "tool",
+                "content": json.dumps({"error": "No se encontro considencias."}),
+                "tool_call_id": message.tool_calls[0].id
+            }
+        
+        return response
+  
