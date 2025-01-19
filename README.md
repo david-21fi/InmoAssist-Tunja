@@ -1,4 +1,6 @@
 # InmoAssist-Tunja
+![imagen]('image/../image/tunja3.png')
+
 InmoAI-Tunja es un proyecto basado en modelos de lenguaje avanzado (LLMs) diseñado para optimizar las consultas relacionadas con la adquisición de inmuebles en la ciudad de Tunja. Este agente integra datos de múltiples plataformas inmobiliarias para proporcionar recomendaciones precisas y personalizadas de casas y apartamentos en venta.
 
 Características principales:
