@@ -4,7 +4,7 @@
 # archivo de claves
 .env
 # archivo de datos
-data/data_metro_cuadrado*
+data/
 Notebook/.ipynb_checkpoints/
 .ipynb_checkpoints/
 tools/.ipynb_checkpoints/
