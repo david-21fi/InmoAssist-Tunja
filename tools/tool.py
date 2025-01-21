@@ -3,7 +3,25 @@ from typing import Optional
 import pandas as pd
 import sqlite3
 import re
+import requests
+from bs4 import BeautifulSoup
 
+class Website():
+    """
+    Una clase de utilidad para representar un sitio web que hemos scrappeado
+    """
+    url: str
+    title: str
+    text: str
+
+    def __init__(self, url):
+        self.url = url
+        response = requests.get(url)
+        soup = BeautifulSoup(response.content, 'html.parser')
+        self.title = soup.title.string if soup.title else "No title found"
+        for irrelevant in soup.body(["script", "style", "img", "input"]):
+            irrelevant.decompose()
+        self.text = soup.body.get_text(separator="\n", strip=True)
 
 
 def consulta_filtrada(tabla: str,condiciones: str) -> pd.DataFrame:
@@ -25,11 +43,11 @@ def consulta_filtrada(tabla: str,condiciones: str) -> pd.DataFrame:
     print(f"Consulta base temp: {condiciones}")
     # Agregar filtros
     
-    if condiciones:
-        consulta += " WHERE "+ condiciones
-    elif 'barrio_comun' in condiciones:
+    if 'barrio_comun' in condiciones:
         patron = r"(barrio_comun)\s*=\s*"
-        consulta = re.sub(patron, r"\1 LIKE ", consulta)
+        condiciones = re.sub(patron, r"\1 LIKE ", condiciones)
+
+    consulta += " WHERE " + condiciones
 
     print(f"Consulta generada: {consulta}")
     
@@ -51,8 +69,20 @@ def resumen_inmueble(codigo:str):
     Return
 
     """
+    conn = sqlite3.connect('../inmuebles.db')
+    ## consulta
+    consulta = f"SELECT url FROM urls WHERE codigo_inmueble = '{codigo}'"
 
+    
+    try:
+        df = pd.read_sql_query(consulta, conn)
+        info = Website(df['url'].values[0])
+        text = info.title + info.text
+        return text
+    except Exception as e:
+        print(f"Error al realizar la consulta: {e}")
 
+    
 
 # Definición de la herramienta para OpenAI
 sqlite_tool = [{
@@ -79,6 +109,28 @@ sqlite_tool = [{
             "additionalProperties": False
         }
     }
+},
+{
+    "type":"function",
+    "function":{
+        "name":"resumen_inmueble",
+        "description":"""Consigue el contenido del inmuble que se encuetra el la página Web, llama a esta función siempre quel usuario necesites
+        una descripción mas detallada del inmueble, por ejemplo si el cliete te pide ¿me puedes dar una descripcion mas detallada de este inmueble?.
+        """,
+        "parameters":{
+            "type":"object",
+            "properties":{
+                "codigo":{
+                    "type":"string",
+                    "description": """El cogido del inmueble por ejemplo, codigo_inmueble = '16742-M4795726' """,
+                    "default":None
+                }
+            },
+            "required":["codigo"]
+        }
+
+    }
+
 }]
 
 def handle_tool_call(message):
@@ -103,6 +155,24 @@ def handle_tool_call(message):
                 "content": json.dumps({"error": "No se encontro considencias."}),
                 "tool_call_id": message.tool_calls[0].id
             }
-        
-        return response
+    elif message.tool_calls[0].function.name == 'resumen_inmueble':
+        tool_call = message.tool_calls[0]
+        arguments = json.loads(tool_call.function.arguments)
+        print(f"los argumentos son \n{arguments}")
+        codigo = arguments.get('codigo')
+        texto = str(resumen_inmueble(codigo))
+        if texto is not None:
+            response = {
+                "role": "tool",
+                "content": texto,
+                "tool_call_id": message.tool_calls[0].id
+            }
+        else:
+            response = {
+                "role": "tool",
+                "content": json.dumps({"error": "No se encontro considencias."}),
+                "tool_call_id": message.tool_calls[0].id
+            }
+    
+    return response
   
